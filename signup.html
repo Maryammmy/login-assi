@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/all.min.css">
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container-fliud d-flex justify-content-center align-items-center  w-100 vh-100 backGround">
+        <div class="contain position-relative">
+            <div class="divclose position-absolute"><i class="fa-solid fa-xmark iconclose"></i></div>
+            <h1 class="text-center my-2">registration</h1>
+            <div class="inputs">
+                <div class="user-input position-relative">
+                    <label>Username</label>
+                    <input type="text" placeholder="Enter your name" class="form-control my-2" id="nameinput-register"required>
+                <i class="fa-solid fa-user iconone"></i>
+                </div>
+                <div id="alaretnameinput" class="text-danger d-none">must include first character captial or small </div>
+        <div class="email-input position-relative">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" class="form-control my-2" id="emailinput-register"required>
+            <i class="fa-solid fa-envelope iconone"></i>
+        </div>
+        <div  id="alaretemailinput" class="text-danger d-none">must include a @ and dot</div>
+        <div class="password-input position-relative">
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" class="form-control my-2" id="passinput-register"required >
+            <i class="fa-solid fa-lock icontwo"></i>
+        </div>
+        <div id="alaretpassinput" class="text-danger d-none">must be a strong password and start with uppercase</div>
+    </div>
+    <div id="exist" class="text-white text-center d-none">this account already exist</div>
+    <div class="btn btn-success d-none" id="success">success</div>
+    <div class="text-danger d-none fw-bold  text-center" id="requiredinputs">All inputs is required</div>
+    <div class="wrong d-none text-danger" id="wrong">try again something is wrong </div>
+    <label><input type="checkbox" class="checkbox">i agree to the terms & conditions</label>
+    <button class="btn w-75 d-block m-auto but1 my-4" onclick="signup()">Register</button>
+    <p class="text-center">Already have an account?  <a href="index.html">Login</a></p>
+
+    
+    </div>
+</div>
+
+  
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+    </body>
+</html>

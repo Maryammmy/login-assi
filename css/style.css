@@ -1,0 +1,103 @@
+.contain{
+    width: 500px;
+    height: 550px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    
+}
+.backGround{
+    background-image: url(../images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+h1{
+    color: #162938;
+}
+p{
+    color: #162938;
+}
+label{
+    color: #162938;
+  
+}
+i{
+    color: #162938;
+}
+.iconone{
+    position: absolute;
+    right: 5%;
+    bottom: 10px; 
+}
+.icontwo{
+    position: absolute;
+    right: 5%;
+    bottom: 12px; 
+}
+a{
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
+}
+.but1{
+    background-color: #162938;
+    color: white;
+    font-weight: 600;
+}
+.but1:hover{
+    border: 2px solid #162938;
+    background: transparent;
+    color: #162938;
+    font-weight: 600;
+}
+.divclose{
+    background-color: #162938;
+    width: 30px;
+    height: 30px;
+    right: 0.5%;
+    top: 0%;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconclose{
+    color: white;
+}
+h2{
+    font-size: 60px;
+    transition:  transform 0.5s;
+}
+h2:hover{
+    transform: scale(1.2);
+}
+.checkbox{
+    accent-color:#162938 ;
+}
+.logo{
+color: #162938;
+font-weight: 700;
+font-size: 30px;
+}
+.navbarbg{
+background-color:rgba(135, 207, 235, 0.581);
+    
+}
+.word{
+    color: #162938;
+    font-weight: 700;
+    font-size: 30px;
+    }
+    .word:hover{
+        background-color: #162938;
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
